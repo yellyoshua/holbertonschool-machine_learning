@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 def matrix_shape(matrix):
-    __doc__ = """Calculates the shape of a matrix"""
+    """Calculates the shape of a matrix"""
     shape = []
     while type(matrix) == list:
         shape.append(len(matrix))
