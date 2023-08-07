@@ -6,8 +6,7 @@ def np_elementwise(mat1, mat2):
         mat1: Given matrix
         mat2: Given matrix
     Return:
-        tuple containing elementwise addition, subtraction,
-        multiplication, and division, respectively
+        tuple containing sum, difference, product, quotient
     """
     sum = mat1 + mat2
     difference = mat1 - mat2
